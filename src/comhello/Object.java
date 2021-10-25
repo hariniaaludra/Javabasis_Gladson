@@ -9,6 +9,12 @@ public class Object {
 	
 	System.out.println("Object and classes");
 	Object myObj=new Object();
+	/*
+	 * Object myobj1=new Object();//Object1
+	 * Object myobj2=new Object();//Object2
+	 * System.out.println(myobj1.x);
+	 * System.out.println(myobj2.x);
+	 */
 	System.out.println(myObj.x);
 	}
 

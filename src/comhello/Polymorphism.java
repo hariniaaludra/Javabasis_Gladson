@@ -19,6 +19,7 @@ class Dog extends Animal {
 	}
 }
 
+
 class Main {
 	public static void main(String[] args) {
 		Animal myAnimal = new Animal();
@@ -29,7 +30,11 @@ class Main {
 		myPig.animalSound();
 		myDog.animalSound();
 	}
-}
+
+
+		
+	}
+
 
 /*
  * public void family() { System.out.println("generation"); } class Father

@@ -4,13 +4,12 @@ public class Array {
 	
 
 	public static void main(String[] args) {
-		String[] x= {"glad","son","raj","raju"};
-	Array myobj=new Array();
+		String[] x= {"n","o","s","d","a","l","g"};
 	
 		
-for(String a:x) //for each loop
+for(int i=x.length-1;i>=0;i--) 
 {
-	System.out.println(a);
+	System.out.println(x[i]);
 }
 	
 

@@ -23,7 +23,6 @@ public class Enumcondition {
 			return false;
 		}
 
-		
 		public static String findenum1(String name) {
 			for (SampleEnum value1 : SampleEnum.values()) {
 				if (value1.name.equals(name)) {
@@ -33,11 +32,6 @@ public class Enumcondition {
 			}
 			return null;
 		}
-		}
-			
-		}
-		
-	
+	}
 
-
-
+}

@@ -1,5 +1,4 @@
 package comhello;
-<<<<<<< HEAD
 
 public class Enum2 {
 	enum Country
@@ -7,15 +6,7 @@ public class Enum2 {
 		INR("&","India"),
 		USA("$","USA"),
 		EURO("@","Europe");
-=======
-import java.util.Scanner;
-public class Enum2 {
-	enum Country
-	{
-		INR("&","INDIA"),
-		USA("$","USA"),
-		EURO("@","EUROPE");
->>>>>>> 242262565e3936c942f8fd44eabbf23f4bd07a6e
+
 		private String val,val2;
 		
 		private Country(String val,String val2)
@@ -25,12 +16,8 @@ public class Enum2 {
 		}
 		public static void main(String[] args)
 		{
-<<<<<<< HEAD
-			 
+
 			 String val3="!";
-=======
-			String val3="$";
->>>>>>> 242262565e3936c942f8fd44eabbf23f4bd07a6e
 			int count=0;
 			for(Country c:Country.values())
 			{
@@ -46,12 +33,9 @@ public class Enum2 {
 			}
 			else
 			{
-<<<<<<< HEAD
 				boolean b=false;
 				System.out.println(b);
-=======
-				System.out.println("false");
->>>>>>> 242262565e3936c942f8fd44eabbf23f4bd07a6e
+
 			}
 		}
 		

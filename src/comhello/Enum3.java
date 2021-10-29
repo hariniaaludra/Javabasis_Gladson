@@ -11,7 +11,7 @@ public class Enum3 {
 		private String string2;   
 		
 		SampleEnum1(String name, String string2) {
-			this.name=name;
+			//this.name=name;
 			this.string2=string2;
 		}
 		
@@ -38,11 +38,11 @@ public static void main(String[] args)
 	//System.out.println(SampleEnum.forName("@"));     
 	//System.out.println(SampleEnum.forName(""));     
 	//System.out.println(SampleEnum.forName(""));  
-	}
+	
 	
 
 }
-}
+
 
 
 

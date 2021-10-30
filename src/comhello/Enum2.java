@@ -28,13 +28,13 @@ public class Enum2 {
 			}
 			if(count>0)
 			{
-				boolean a=true;
-				System.out.println(a);
+				
+				System.out.println("true");
 			}
 			else
 			{
-				boolean b=false;
-				System.out.println(b);
+				
+				System.out.println("invalid");
 
 			}
 		}

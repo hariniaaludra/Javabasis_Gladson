@@ -1,7 +1,7 @@
 package comhello;
 
 abstract class Abstraction {
-	Abstraction()
+public	Abstraction()
 	{
 		System.out.println("constructor");
 	}

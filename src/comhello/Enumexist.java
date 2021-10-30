@@ -8,12 +8,23 @@ public class Enumexist {
 
 	public static void main(String args[])
 	{
-	//	Enumcondition obj=new Enumcondition();
+	 
+		 
+		// System.out.println(SampleEnum.findenum1("@"));
+		//System.out.println(SampleEnum.findenum("@"));
+		SampleEnum e=SampleEnum.findenum("@");
+		System.out.println(e.symbol);
 		
 		
-		System.out.println(SampleEnum.findenum("@"));
 		
-		System.out.println(SampleEnum.findenum1("@"));
+		//SampleEnum e1=SampleEnum.findenum("India");
+		//System.out.println(" currency symbol    "+e1.symbol);
+
+		
+		
+		
+	
+		
 	}
 }
 

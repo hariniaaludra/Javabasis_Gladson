@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//com.hello
 
 public class Index {
 	String s1;

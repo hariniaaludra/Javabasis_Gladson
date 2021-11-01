@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//com.hello
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,12 +18,12 @@ public class Arraylist {
 		}
 		
 		System.out.println(cars.get(0));
-		System.out.println("this is integer arraylist");
+		System.out.println("This is integer arraylist");//
 		ArrayList <Integer> a=new ArrayList<Integer>();
 		a.add(55);
 		a.add(266);
 		a.add(34);
-		a.add(7);
+		
 		a.remove(0);
 		Collections.sort(a);
 		System.out.println(a);

@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//com.hello
 import java.util.StringTokenizer;
 public class Stringtokenizer {
 

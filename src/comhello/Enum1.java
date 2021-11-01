@@ -1,12 +1,12 @@
-package comhello;
-enum choices
+package comhello;//com.hello
+enum choices //enum name should be start  "Choice"
 {
 	APPLE,SAMSUNG,OPPO;
-int price;
-choices()
-{
+	 int price;
+	choices()
+	{
 	price=100;
-	System.out.println("this is constructor");
+	System.out.println("This is constructor");
 }
 public int getPrice()
 {

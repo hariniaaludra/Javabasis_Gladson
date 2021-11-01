@@ -1,9 +1,9 @@
-package comhello;
+package comhello;//com.hello
 
-public interface Interfaceprogram {
+public interface Interfaceprogram {// InterfaceProgram
 	public void glad();
 }
-class Raj implements Interfaceprogram
+class Raj implements Interfaceprogram//InterfaceProgram
 {
 
 	public void glad() {

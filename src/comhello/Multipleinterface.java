@@ -1,11 +1,12 @@
-package comhello;
+package comhello;//com.hello
 
- interface Multipleinterface {
-public void method1();
-}
- interface Secondinterface
+ interface Multipleinterface {//MultipleInterface
+	 public void method1();
+ }
+ interface Secondinterface//SecondInterface
  {
-	 public void method2(); }
+	 public void method2();
+	 }
 class Glad implements Multipleinterface, Secondinterface
 {
 	public void method1()
@@ -18,16 +19,16 @@ class Glad implements Multipleinterface, Secondinterface
 	}
 }
 
-class Myclass
+class Myclass//MyClass
 {
 
 	public static void main(String[] args)
 	{
-Glad obj=new Glad();
+		Glad obj=new Glad();
 
-Glad obj1=new Glad();
-obj.method1();
-obj1.method2();
+		Glad obj1=new Glad();
+		obj.method1();
+		obj1.method2();
 
 
 			

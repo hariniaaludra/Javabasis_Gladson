@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//com.hello
 import java.util.Scanner;
 public class Packages {
 		  public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Packages {
 		    
 
 		    System.out.println("Enter username:"); 
-		    userName = myobj.nextLine(); 
+		    userName = myobj.nextLine(); //next();
 		    System.out.println("Username is: " + userName);
 		    System.out.println("Enter your qualification:"); 
 		    degree= myobj.nextLine();

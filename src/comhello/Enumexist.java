@@ -1,4 +1,4 @@
-package comhello;
+package comhello; //com.hello
 
 
 import comhello.Enumcondition.SampleEnum;

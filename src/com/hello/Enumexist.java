@@ -1,7 +1,7 @@
-package comhello;
+package com.hello; //com.hello
 
 
-import comhello.Enumcondition.SampleEnum;
+import com.hello.Enumcondition.SampleEnum;
 
 public class Enumexist {
 	

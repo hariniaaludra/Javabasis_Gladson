@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 public class Object {
 	int x=5;

@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 public class Enum3 {
 	enum SampleEnum1 {   

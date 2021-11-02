@@ -1,4 +1,4 @@
-package comhello;
+package com.hello; //com.hello
 
 public class EnumExample4{  
 enum Season{   

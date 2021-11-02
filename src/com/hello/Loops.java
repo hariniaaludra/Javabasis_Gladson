@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 public class Loops {
 	
@@ -8,7 +8,7 @@ public class Loops {
 	int i=0;
 	while(i<5)
 	{
-		System.out.println(+i);
+		System.out.println(i);//(i)
 		i++;
 	}
     }

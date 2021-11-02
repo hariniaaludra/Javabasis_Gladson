@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 enum Level {
 	  LOW(),
@@ -30,7 +30,9 @@ enum Level {
 		   break;
 	   case MEDIUM:
 		   System.out.println("its ok");
-		   break; 
+		   break;
+	default:
+		break; 
 	   }
 	    for(Level a:Level.values())
 	    {

@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;
 
 public class StringUtils {
 

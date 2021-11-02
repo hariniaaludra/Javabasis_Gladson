@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 public class Methods {
 	
@@ -36,7 +36,7 @@ public class Methods {
 		//myobj.addition(5, 6);
 		
 		
-		String g=myobj.addition(5, 4);
+		String g=Methods.addition(5, 4);
 		
 		System.out.println(g);
 		myobj.mymethod2(5.5, "suresh");

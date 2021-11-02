@@ -1,6 +1,6 @@
-package comhello;
+package com.hello;//com.hello
 
-public class Stringhandling {
+public class StringHandling {//StringHandling
 
 	public static void main(java.lang.String[] args) {
 		String username="     gladson",username1="glad";

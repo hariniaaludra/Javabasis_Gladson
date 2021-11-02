@@ -1,4 +1,4 @@
-package comhello;
+package com.hello;//com.hello
 
 public class Inheritence {
 	  String name="Gladson";
@@ -8,7 +8,7 @@ public class Inheritence {
 	 }
     static class Subclass extends Inheritence
   {
-  String lname="raj";
+  String lname="raj"; 
  public static void main(String[] args)
  {
 	Subclass myobj=new Subclass();

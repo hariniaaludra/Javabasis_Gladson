@@ -1,6 +1,6 @@
 package com.hello;//com.hello
 
-public class Mainclass {
+public class MainClass {
 	private String name;
 
 	public String getName() {

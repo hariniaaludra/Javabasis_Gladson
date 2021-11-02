@@ -19,15 +19,15 @@ public class Arraylist {
 		
 		System.out.println(cars.get(0));
 		System.out.println("This is integer arraylist");//
-		ArrayList <Integer> a=new ArrayList<Integer>();
-		a.add(55);
-		a.add(266);
-		a.add(34);
+		ArrayList <Integer> obj=new ArrayList<Integer>();
+		obj.add(55);
+		obj.add(266);
+		obj.add(34);
 		
-		a.remove(0);
-		Collections.sort(a);
-		System.out.println(a);
-		System.out.println(a.size());
+		obj.remove(0);
+		Collections.sort(obj);
+		System.out.println(obj);
+		System.out.println(obj.size());
 		
 		
 		

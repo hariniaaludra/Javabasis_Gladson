@@ -1,4 +1,4 @@
-package mapinterface;
+package mapinterface;//package should be in com.mapinterface
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class Treemapdemo {
 
 	public static void main(String[] args) {
-		TreeMap<Integer,String> tm=new TreeMap<Integer,String>(); // it maintain ascending order
+		TreeMap<Integer,String> tm=new TreeMap<Integer,String>();//replace with<> // it maintain ascending order
 		tm.put(2, "Chennai");
 		tm.put(1, "Delhi");
 		tm.put(4, "Bangalore");

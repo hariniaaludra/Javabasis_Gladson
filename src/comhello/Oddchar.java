@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Oddchar {
 	public static void main(String[] args) {

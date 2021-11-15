@@ -1,11 +1,11 @@
-package collections;
+package collections;//package should be in com.collections
 
 import java.util.LinkedList;
 
 public class Linkedlist {
 
 	public static void main(String[] args) {
-		LinkedList ll=new LinkedList();
+		LinkedList ll=new LinkedList();//add type arguments to the LinkedList<String>
 		ll.add(33);
 		ll.add(44);
 		ll.add("glad");

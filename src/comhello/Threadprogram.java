@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Threadprogram extends Thread {
 
@@ -8,7 +8,7 @@ public class Threadprogram extends Thread {
 		System.out.println("the code is outside of thread");
 
 	}
-	public void run() {
+	public void run() {//add annotations @Override
 		System.out.println("the code is running in thread");
 	}
 

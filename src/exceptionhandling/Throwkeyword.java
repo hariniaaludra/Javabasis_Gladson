@@ -1,4 +1,4 @@
-package exceptionhandling;
+package exceptionhandling;//package should be in com.exceptionhandling
 
 public class Throwkeyword {
 

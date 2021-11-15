@@ -1,8 +1,8 @@
-package hackerrank;
+package hackerrank;//package should be in com.hackerrank
 
 import java.util.Scanner;
 
-public class Qseries {
+public class Qseries {//give class proper name
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

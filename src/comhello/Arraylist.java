@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,7 +19,7 @@ public class Arraylist {
 		
 		System.out.println(cars.get(0));
 		System.out.println("this is integer arraylist");
-		ArrayList  a=new ArrayList();
+		ArrayList  a=new ArrayList();//add type arguments to the ArrayList<Comparable>
 		a.add(55);
 		a.add(266);
 		a.add(34);

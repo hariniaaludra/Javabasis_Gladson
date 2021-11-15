@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Enum3 {
 	enum SampleEnum1 {   
@@ -20,7 +20,7 @@ public static void main(String[] args)
 	String b="@";
 
 		 //static SampleEnum1 forName(String name) {       
-			for (SampleEnum1 value : SampleEnum1.values()) {           
+			for ( SampleEnum1 value : SampleEnum1.values()) {           
 				if (b.equals(name)) { 
 					System.out.println("this is exist in the enum");
 					return;

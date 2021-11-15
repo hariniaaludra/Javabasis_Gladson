@@ -1,4 +1,4 @@
-package mapinterface;
+package mapinterface;//package should be in com.mapinterface
 
 import java.util.HashMap;
 import java.util.Map;

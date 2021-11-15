@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 import java.util.Scanner;
 public class Packages {
 		  public static void main(String[] args) {

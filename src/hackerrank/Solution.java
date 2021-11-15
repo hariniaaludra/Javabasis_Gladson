@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank;//package should be in com.hackerrank
 
 
 	import java.io.*;
@@ -18,7 +18,7 @@ package hackerrank;
 	        return (int p) -> {
 	            if(p<3)return true;
 	            if((p % 2)==0)return false;
-	            for(int i=3;i<Math.sqrt(p);i+=2)
+	            for(int i=3;i<Math.sqrt(p);i+=2)//use curly braces properly
 	            if((p % i)==0)return false;
 	            return true;
 	            }; 
@@ -28,8 +28,8 @@ package hackerrank;
 	        return (int p) -> {
 	            String pS=((Integer)p).toString();
 	            int n=pS.length();
-	            for(int i=0;i<n/2;i++)
-	            if(pS.charAt(i) != pS.charAt(n-1-i))return false;
+	            for(int i=0;i<n/2;i++)//use curly braces properly
+	         if(pS.charAt(i) != pS.charAt(n-1-i))return false;
 	            return true;
 	            };
 	    }

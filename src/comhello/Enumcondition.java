@@ -1,11 +1,12 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Enumcondition {
 
 	enum SampleEnum {
 		INR("#", "India"), DOL("$", "usa"), EUR("@", "europe");
 
-		String symbol, country;
+		String symbol,country;//declaring multiple variables on one line is difficult to read 
+		
 
 		SampleEnum(String country, String symbol) {
 			this.symbol = symbol;

@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank;//package should be in com.hackerrank
 import java.text.*;
 import java.util.Locale;
 import java.util.Scanner;

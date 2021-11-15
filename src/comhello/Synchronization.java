@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 class Table{
 	void printTable(int n) {
@@ -17,7 +17,7 @@ class MyThread1 extends Thread{
 	MyThread1(Table t){
 		this.t=t;
 	}
-	public void run() {
+	public void run() {//add annotations @Override
 		t.printTable(5);
 	}
 }
@@ -26,7 +26,7 @@ class MyThread2 extends Thread{
 	MyThread2(Table t){
 		this.t=t;
 	}
-	public void run() {
+	public void run() {//add annotations @Override
 		t.printTable(100);
 	}
 }

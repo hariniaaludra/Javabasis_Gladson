@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
  interface Multipleinterface {
 public void method1();

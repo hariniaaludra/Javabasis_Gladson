@@ -12,8 +12,8 @@ public class Enumexist {
 		 
 		// System.out.println(SampleEnum.findenum1("@"));
 		//System.out.println(SampleEnum.findenum("@"));
-		SampleEnum e=SampleEnum.findenum("@");
-		System.out.println(e.symbol);
+		SampleEnum e=SampleEnum.findenum("$");
+		System.out.println(e.country);
 		
 		
 		

@@ -10,8 +10,9 @@ public class Hashsetdemo {
 			HashSet set=new HashSet();  
 			set.add("Ravi");  
 			set.add("Vijay");  
-			set.add("Ravi");  
+			set.add("Rajesh");  
 			set.add("Ajay");  
+			System.out.println(set.size());
 			//Traversing elements  
 			Iterator itr=set.iterator();  
 			while(itr.hasNext()){  

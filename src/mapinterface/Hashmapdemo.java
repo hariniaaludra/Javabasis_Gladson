@@ -13,7 +13,7 @@ public class Hashmapdemo {
 			   map.put(3,"Banana");   //it does not allow the duplicate values
 			   map.put(4,"Banana");   
 			   map.remove(3);
-			       
+			    System.out.println(map);   
 			   System.out.println("Hashmap values....");  
 			   for(Map.Entry m : map.entrySet()){    
 			    System.out.println(m.getKey()+" "+m.getValue());    

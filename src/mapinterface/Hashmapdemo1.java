@@ -32,7 +32,8 @@ public class Hashmapdemo1 {
 			Hashmapdemo1 ob = new Hashmapdemo1();
 
 
-				System.out.println(Hashmapdemo1.checkForKey("@_INR"));
+				System.out.println(Hashmapdemo1.checkForKey("INDIA"));
+			
 			}
 		
 

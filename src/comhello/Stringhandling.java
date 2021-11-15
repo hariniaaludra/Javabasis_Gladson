@@ -17,6 +17,7 @@ public class Stringhandling {
 		System.out.println(name.toLowerCase()); // change to lower case
 		System.out.println(name.toUpperCase()); //change to upper case
 		System.out.println(username.trim()); //delete the blankspaces
+		System.out.println(username.replaceAll("",""));
 		String[] names= {"naresh","suresh","rajesh"};
 		String sentence="";
 		for (String s:names)

@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Methods {
 	
@@ -22,9 +22,8 @@ public class Methods {
 	}
 	public static  String addition(int a,int b)
 	{
-		 String result = "result= "+ (a+b);
-		return result ;
-		
+		 return "result= "+ (a+b);
+	
 		
 	}
 
@@ -36,7 +35,7 @@ public class Methods {
 		//myobj.addition(5, 6);
 		
 		
-		String g=myobj.addition(5, 4);
+		String g=myobj.addition(5, 4);//declaring static using Methods
 		
 		System.out.println(g);
 		myobj.mymethod2(5.5, "suresh");

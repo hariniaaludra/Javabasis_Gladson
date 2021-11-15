@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank;//package should be in com.hackerrank
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class Hashsethackerrank {
 		  left[j]=sc.next();
 		  right[j]=sc.next();
 	   }
-	   HashSet hs=new HashSet();
+	   HashSet hs=new HashSet();//add type arguments to HashSet
 	   for(int z = 0; z < i; z++)
 	    {
 	        hs.add(left[z] + " " +right[z]  );

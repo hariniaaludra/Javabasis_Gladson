@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank;//package should be in com.hackerrank
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Listprogram {
 		Scanner sc=new Scanner(System.in);
 		int x=sc.nextInt();
 		sc.nextLine();
-		LinkedList ll=new LinkedList();
+		LinkedList ll=new LinkedList();//add type arguments to LinkedList
 		for(int i=0;i<x;i++) {
 			int y=sc.nextInt();
 			ll.add(y);

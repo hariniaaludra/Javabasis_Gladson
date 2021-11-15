@@ -1,4 +1,4 @@
-package collections;
+package collections;//package should be in com.collections
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-		ArrayList al=new ArrayList();
+		ArrayList al=new ArrayList();//add type arguments to the ArrayList<Comparable>
 		al.add(80);
 		al.add("glad");
 		al.add('g');
@@ -26,7 +26,7 @@ public class ArrayListDemo {
 		System.out.println(al.indexOf("glad")); //this is used for check the position for the given values
        
 		
-		ArrayList al2=new ArrayList();
+		ArrayList al2=new ArrayList();//add type arguments to the ArrayList<String>
         al2.addAll(al);
     	System.out.println("al2 list is:"+al2); 
     	

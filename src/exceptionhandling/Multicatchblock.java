@@ -1,12 +1,12 @@
-package exceptionhandling;
+package exceptionhandling;//package should be in com.exceptionhandling
 
 public class Multicatchblock {
 
+	private static String d;
+
 	public static void main(String[] args) {
 	try {
-		//int a[]=new int[5];
-		//a[10]=30/0;
-		String d=null;
+	
 		System.out.println(d.length());
 	}catch(ArithmeticException e) {
 		System.out.println("ArithemticException");

@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 enum Level {
 	  LOW(),
@@ -23,14 +23,14 @@ enum Level {
 	   {
 		   System.out.println("it is medium");
 	   }
-	   switch(myVar)
+	   switch(myVar)//add default case
 	   {
 	   case LOW:
 		   System.out.println("very low");
 		   break;
 	   case MEDIUM:
 		   System.out.println("its ok");
-		   break; 
+		   
 	   }
 	    for(Level a:Level.values())
 	    {

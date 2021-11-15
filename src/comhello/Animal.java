@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Animal {
 	
@@ -8,13 +8,16 @@ public class Animal {
 }
 
 class Pig extends Animal {
+
+	//add override annotations
 	public void animalSound() {
 		System.out.println("The pig says: wee wee");
 	}
 }
 
 class Dog extends Animal {
-	public void animalSound() {
+
+	public void animalSound() {//use the annotation @Override
 		System.out.println("The dog says: bow wow");
 	}
 }

@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 public class Enum2 {
 	enum Country
@@ -8,11 +8,9 @@ public class Enum2 {
 		EURO("@","Europe");
 
 		private String val,val2;
-		
 		private Country(String val,String val2)
 		{
 			this.val=val;
-			this.val2=val2;
 		}
 		public static void main(String[] args)
 		{

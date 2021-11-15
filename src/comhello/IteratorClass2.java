@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.hello
 
 import java.util.ArrayList;
 import java.util.Iterator;

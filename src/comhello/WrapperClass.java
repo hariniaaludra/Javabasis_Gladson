@@ -1,4 +1,4 @@
-package comhello;
+package comhello;//package should be in com.Hello
 
 public class WrapperClass {
 
@@ -6,7 +6,7 @@ public class WrapperClass {
 		byte a=23;
 		short b=2436;
 		int c=23_56_77;
-		long d=123_45_678;
+		long d=123_45_678;//mention L
 		float e=12.43F;
 		double f=13.435D;
 		char g='g';

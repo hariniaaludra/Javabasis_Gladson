@@ -3,7 +3,7 @@ package udemy;
 public class LoopsApp {
 	 public static void main(String[] args) {
 	        int i = 1;
-	        while (i <= 0){
+	        while (i <= 10){
 	            System.out.println(i +". BEING RIGHT SUCKS");
 	            i++;
 	        }
@@ -14,7 +14,7 @@ public class LoopsApp {
 	        do {
 	            System.out.println(j +". BEING RIGHT SUCKS");
 	            j++;
-	        } while(j <= 0);
+	        } while(j <= 10);
 	        System.out.println("Value of j: " + j);
 	        System.out.println();
 

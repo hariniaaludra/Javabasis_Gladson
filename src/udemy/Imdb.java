@@ -21,8 +21,9 @@ public class Imdb {
 
         System.out.println("Movies:");
 
-        for (int i = 0; i < movieTitles.length; i++) {
-            System.out.println(movieTitles[i] + " - " + getRating(movieRatings[i]));
+        for (int i = 0, j=movieRatings.length-1; i < movieTitles.length; i++,j--) {
+        	
+            System.out.println( movieTitles[i] + " - "+movieRatings[j]+" " + getRating(movieRatings[j]));
         }
     }
 
